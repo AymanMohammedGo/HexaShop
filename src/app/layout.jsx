@@ -3,7 +3,7 @@ import { Montserrat } from "next/font/google";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 
-const bodyFont = Montserrat({ subsets: ["latin"], weight: ["400"] });
+const bodyFont = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",

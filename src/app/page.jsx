@@ -5,15 +5,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.col}>
-        <h1 className={styles.title}>Shop for small laptops at Best Buy</h1>
+        <h1 className={styles.title}>Your Best Online shop destination! </h1>
         <p className={styles.description}>
           Find low everyday prices and buy online for delivery or in-store
           pick-up
         </p>
-        <button className={styles.button}>order now</button>
+        <button className={styles.button}>Order Now</button>
       </div>
       <div className={styles.col}>
-        <Image src={Hero} alt="Hero" />
+        <Image className={styles.img} src={Hero} alt="Hero" />
       </div>
     </div>
   );
