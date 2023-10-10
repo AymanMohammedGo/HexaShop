@@ -1,0 +1,20 @@
+.container {
+  border: 2px solid var(--color-primary);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  position: relative;
+}
+.icon {
+  font-size: 18px;
+}
+.switcher {
+  width: 25px;
+  aspect-ratio: 1/1;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
