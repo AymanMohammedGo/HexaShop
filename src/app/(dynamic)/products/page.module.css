@@ -1,0 +1,31 @@
+.maincontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  gap: 15px;
+}
+.post {
+  flex-grow: 1;
+  border: 1px solid #555;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.post:hover {
+  background-color: black;
+  border: 1px solid #fff;
+}
+
+.image {
+  width: 100%;
+
+  border-radius: 15px 15px 0px 0px;
+}
+.content {
+  padding: 20px;
+}
+.title {
+  margin-bottom: 10px;
+}
+.text {
+  font-size: 15px;
+  color: #999;
+}
