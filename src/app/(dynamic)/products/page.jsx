@@ -1,7 +1,10 @@
 import Link from "next/link";
 import styles from "./page.module.css";
 import Image from "next/image";
-
+export const metadata = {
+  title: "HexaShop - Products",
+  description: "Online Store",
+};
 async function getData() {
   const res = await fetch("https://dummyjson.com/products");
   if (!res.ok) {

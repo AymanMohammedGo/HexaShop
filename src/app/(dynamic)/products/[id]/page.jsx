@@ -2,6 +2,16 @@ import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 
+export async function generateMetadata({ params }) {
+  const id = params.id;
+  const product = await getData(params.id);
+
+  return {
+    title: product.title,
+    description: product.description,
+  };
+}
+
 async function getData(id) {
   const res = await fetch(`https://dummyjson.com/products/${id}`);
   if (!res.ok) {
