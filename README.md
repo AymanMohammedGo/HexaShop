@@ -1,5 +1,3 @@
-## Demo :
-
 run vpn if your location in Syria
 
 ## Features in the project :
@@ -7,7 +5,6 @@ run vpn if your location in Syria
 > View product details\
 > Multiple images of the product\
 > Dark and light mode \
-> Responsive to all screens\
 > Best Practice
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
